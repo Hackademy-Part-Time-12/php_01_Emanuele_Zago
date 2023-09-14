@@ -74,6 +74,10 @@ $words1 = [
                     ] 
   ];
 
-  $result = $words1[6][3][1][1] $worlds1[6][3][1][0]; 
+  $mancano1 = "di";
+  $mancano2 = "del";
+/*
+  $result = [$words1[6][3][1][1]],[$words1[6][3][0]];
+   */
 
-  echo $result;
+  var_dump($words1);
