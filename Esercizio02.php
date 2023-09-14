@@ -20,11 +20,12 @@ echo"la media risulta $media";
 */
 // Esercizio 2
 
-
+/*
 $users = [ 
     ['name' => 'Daniele', 'surname' => 'Insabato', 'gender' => 'NB'],
     ['name' => 'Franco', 'surname' => 'Gabibbo', 'gender' => 'M'],
     ['name' => 'Giulia', 'surname' => 'Trottola', 'gender' => 'F'],
+    ['name' => 'Emanuele', 'surname' => 'Troia', 'gender' => 'F'],
   ];
 
   foreach($users as $utenti){
@@ -41,5 +42,23 @@ $users = [
         echo"Buongiorno {$utenti['gender']} {$utenti['name']} {$utenti['surname']}\n";
     }
   };
-
+*/
   // Esercizio 3
+/*
+  $numeri = [1,2,3,4,5,6,7,8,9,10];
+
+  for($i = 0; $lenght = count($numeri), $i < $lenght; $i++){
+    echo"($numeri[$i])";
+  };
+*/
+
+
+$numeri = [1,2,3,4,5,6,7,8,9,10];
+$i = 0; 
+$lenght = count($numeri);
+
+  while($i < $lenght){
+    echo"$numeri[$i]\n";
+    $i++;
+  };
+  
