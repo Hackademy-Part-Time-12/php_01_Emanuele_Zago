@@ -52,7 +52,7 @@ $users = [
   };
 */
 
-
+/*
 $numeri = [1,2,3,4,5,6,7,8,9,10];
 $i = 0; 
 $lenght = count($numeri);
@@ -61,4 +61,16 @@ $lenght = count($numeri);
     echo"$numeri[$i]\n";
     $i++;
   };
-  
+  */
+
+  /*
+  $numeri = [1,2,3,4,5,6,7,8,9,10];
+  $lenght = count($numeri);
+
+  $i = 0;
+  do{
+   echo"$numeri[$i]\n";
+   $i++;
+  }
+  while($i < $lenght);
+  */
