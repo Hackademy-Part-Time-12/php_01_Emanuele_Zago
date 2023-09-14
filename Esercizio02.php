@@ -1,5 +1,5 @@
 <?php
-
+/*
 // Esercizio 1
 
 $numeriScelta = [85,4,16,84,1,68,41,89,6,43,86];
@@ -17,6 +17,29 @@ foreach($numeriScelta as $multipli){
 };
 
 echo"la media risulta $media";
-
+*/
 // Esercizio 2
 
+
+$users = [ 
+    ['name' => 'Daniele', 'surname' => 'Insabato', 'gender' => 'NB'],
+    ['name' => 'Franco', 'surname' => 'Gabibbo', 'gender' => 'M'],
+    ['name' => 'Giulia', 'surname' => 'Trottola', 'gender' => 'F'],
+  ];
+
+  foreach($users as $utenti){
+    if($utenti['gender'] == 'NB'){
+    $utenti['gender'] =  null;
+    echo"Buongiorno {$utenti['gender']} {$utenti['name']} {$utenti['surname']}\n";
+    }
+    else if ($utenti['gender'] == 'M'){
+        $utenti['gender'] =  'Sig.';
+        echo"Buongiorno {$utenti['gender']} {$utenti['name']} {$utenti['surname']}\n";
+    }
+    else if($utenti['gender'] == 'F'){
+        $utenti['gender'] =  'Sig.ra';
+        echo"Buongiorno {$utenti['gender']} {$utenti['name']} {$utenti['surname']}\n";
+    }
+  };
+
+  // Esercizio 3
