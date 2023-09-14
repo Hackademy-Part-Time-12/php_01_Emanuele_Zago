@@ -74,3 +74,17 @@ $lenght = count($numeri);
   }
   while($i < $lenght);
   */
+
+  // Esercizio 4
+
+  $numeri = [1,2,3,4,5,6,7,8,9,10];
+  
+ 
+
+  for($i = 0; $lenght = count($numeri), $i < $lenght; $i++){
+    if($numeri[$i] % 2 == 0){
+     echo "$numeri[$i]\n";
+    }
+    
+  };
+  
