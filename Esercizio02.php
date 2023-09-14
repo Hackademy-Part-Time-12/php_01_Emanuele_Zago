@@ -76,7 +76,7 @@ $lenght = count($numeri);
   */
 
   // Esercizio 4
-
+/*
   $numeri = [1,2,3,4,5,6,7,8,9,10];
   
  
@@ -86,5 +86,18 @@ $lenght = count($numeri);
      echo "$numeri[$i]\n";
     }
     
+  };
+  */
+
+  $temperatura = 20;
+
+  if($temperatura <= 5) {
+    echo"Fa molto freddo";
+    }else if($temperatura <= 15){
+      echo"Fa freddo";
+  }else if($temperatura >= 15 && $temperatura <= 24){
+    echo"Fa  caldo";
+  }else if($temperatura >= 25){
+    echo"Fa molto caldo";
   };
   
